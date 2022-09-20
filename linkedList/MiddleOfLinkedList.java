@@ -2,7 +2,7 @@ package linkedList;
 
 public class MiddleOfLinkedList {
 	
-	static class Node{
+	private static class Node{
 		int data;
 		Node next;
 		
