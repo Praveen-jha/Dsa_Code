@@ -22,6 +22,8 @@ public class InsertAtEnd {
 		iterate(head);
 
 	}
+	
+	
 	static Node addLast(Node head, int data) {
 		Node temp = new Node(data);
 		Node current = head;
@@ -35,6 +37,9 @@ public class InsertAtEnd {
 		temp.prev = current;
 		return head;
 	}
+	
+	
+	
 	
 	static void iterate(Node head) {
 		Node current = head;
